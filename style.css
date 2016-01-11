@@ -1,0 +1,119 @@
+td:hover {
+  border: 5px solid #505050 ;
+}
+td:active {
+  background: #000;
+}
+.selected{
+   border: 5px solid #505050 ;
+}
+.imgWrapRight:hover {
+  border: 5px solid #505060 ;
+}
+.imgWrapLeft{
+	float:left;
+	overflow:hidden;
+}
+.imgWrapRight{
+	float:right;
+}
+#wrapper {
+	width:550px;
+	margin:80px auto;
+	font-family:Verdana, sans-serif;
+}
+img{
+	height: 50%;
+	width: 70%;
+}
+table{
+	text-align:center; 
+}
+td{
+	text-align: center;
+	width: 50%;
+}
+legend {
+	color:#0481b1;
+	font-size:16px;
+	padding:0 10px;
+	background:#fff;
+	padding:5px 10px;
+	font-family:Helvetica, sans-serif;
+	font-weight:bold;
+}
+fieldset {
+	width: 800px;
+	right: 30%;
+	background: #fff; 
+	padding:20px;
+	border-color:rgba(4, 129, 177, 0.4);
+	position: relative;
+}
+input,
+textarea {
+	color: #373737;
+	background: #fff;
+	border: 1px solid #CCCCCC;
+	color: #aaa;
+	font-size: 14px;
+	line-height: 1.2em;
+	margin-bottom:15px;
+}
+input[type="submit"]:disabled {
+	background: #C8C8C8;
+	border: none;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+	text-transform:uppercase;
+	color: #eee;
+	cursor: pointer;
+	font-size: 15px;
+	margin: 5px 0;
+	padding: 5px 22px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-border-radius:4px;
+	position:absolute;
+	bottom: 5px;
+	right: 10%;
+}
+input[type="submit"]:enabled {
+	background: #222;
+	border: none;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+	text-transform:uppercase;
+	color: #eee;
+	cursor: pointer;
+	font-size: 18px;
+	margin: 5px 0;
+	padding: 5px 22px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-border-radius:4px;
+	position: absolute;
+	bottom: 5px;
+	right: 10%;
+}
+#btnReset {
+	background: #222;
+	border: none;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+	text-transform:uppercase;
+	color: #eee;
+	cursor: pointer;
+	font-size: 18px;
+	margin: 5px 0;
+	padding: 5px 22px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-border-radius:4px;
+	position: absolute;
+	bottom: 5px;
+	right: 30%;
+}     
+.small {
+	line-height:14px;
+	font-size:14px;
+	color:#999898;
+	margin-bottom:3px;
+}
